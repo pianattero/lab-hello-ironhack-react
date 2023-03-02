@@ -1,0 +1,87 @@
+:root {
+    --dark-blue: #1F2535;
+    --white: #ffffff;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 20px 70px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    height: fit-content;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .content {
+    padding-bottom: 70px;
+}
+
+.header .content .text {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.header .content .text h1 {
+    font-size: 80px;
+    width: 500px;
+    margin: 0;
+}
+
+.header .content .text p {
+    line-height: 1.5;
+    width: 300px;
+    font-size: 18px;
+}
+
+.header .content a {
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 15px;
+    border-radius: 4px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+}
+
+.container-card .item-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 250px;
+    padding: 0 20px;
+}
+
+.container-card .item-card h2,
+.container-card .item-card p
+{
+    margin: 0;
+}
+
+.container-card .item-card h2 {
+    letter-spacing: 2px;
+}
+
+.container-card .item-card p
+{
+    color: gray;
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
